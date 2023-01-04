@@ -1,0 +1,201 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: Montserrat;
+    background-color:#111111;
+    color: aliceblue;
+}
+
+.container{
+    margin: 0px 30px 0px 30px;
+}
+
+/* starts the navbar section  */
+nav {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    height: 14vh;
+}
+.logoimage img{
+    width: 15vh;
+}
+.list{
+    display:flex;
+    gap: 15vh;
+}
+.list-item{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+/* starts the hero section  */
+.heroleft{
+    display: flex;
+}
+.hleftimage img{
+    width: 800px;
+}
+.h-right{
+    margin-top: 37vh;
+    margin-right: 5vh;
+}
+.h-right h2{
+    color: #f43636;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.h-right h1{
+    font-size: 3.5rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+}
+.h-right p {
+    font-weight: 300;
+}
+.hrbtn{
+    margin-top: 2.5rem;
+    padding: .8rem 2rem;
+    background-color: #f43636;
+    border-color: #f43636;
+    color: aliceblue;
+    font-weight: 600;
+}
+
+/* starts the service section  */
+.servicesection{
+    margin-top: 10vh;
+}
+.service-cards{
+    display: flex;
+    justify-content: center;
+    gap: 5vh;
+    height: ;
+}
+.service-cards .s-card{
+    background-color: #1e1e1e;
+    padding: 4% 5%;
+}
+.s-card h1, h2, p, .scard-btn{
+    padding-top: .5rem;
+}
+.s-card p{
+    font-weight: 300;
+}
+.scard-btn .btn{
+    color: #f43636;
+    border: none;
+    background-color: #1e1e1e;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: .8rem;
+}
+.s-card:hover{
+    background-color: #f43636;
+}
+.s-card:hover .btn:hover{
+    color: aliceblue;
+    cursor: pointer;
+    border: none;
+    background-color:transparent;
+}
+
+/* ends the service section  */
+
+
+
+/* starts the experience section  */
+
+
+.experience {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20vh;
+}
+.experience .left {
+    flex: 1.2;
+    text-align: center;
+}
+.experience .left h1 {
+    color: #f43636;
+    font-size: 7rem;
+    font-weight: 900;
+}
+.experience .left p {
+    font-size: 2rem;
+    margin-top: -10px;
+    font-weight: 600;
+}
+.experience .right {
+    display: flex;
+    gap: 20px;
+    flex: 2;
+    flex-wrap: wrap;
+}
+.experience .right .card {
+    background-color:#1e1e1e;
+    width: 20rem;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.experience .right .card h1 {
+    color: #f43636;
+    font-size: 2.9rem;
+}
+.experience .right .card p {
+    color:aliceblue;
+    font-size: 17px;
+    padding-top: 5px;
+}
+
+/* end of experience section  */
+
+
+/* featured project section  */
+.prj-headline {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0vh 15vh;
+    margin-bottom: 10vh;
+}
+
+.projects {
+    margin-top: 20vh;
+}
+
+.headline-left h1{
+    font-size: 2.2rem;
+}
+.headline-left p{
+    font-weight: 300;
+}
+.proj-btn button{
+    padding: 12px 40px;
+    background-color: #f43636;
+    border:none;
+    color: aliceblue;
+}
+.proj-cards{
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    gap:30px;
+}
+.proj-img img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30rem;
+    padding: 3rem 1rem;
+    background-color: rgb(165, 7, 7);
+}
+.featurep-card{
+    
+}
